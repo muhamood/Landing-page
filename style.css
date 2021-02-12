@@ -225,12 +225,13 @@ iframe{
     background-color:lightgrey;
   }
   
-/* @media (min-width: 768px){
-    #nav-bar{
-      
-    } 
-    #features{
-      
+  @media screen and (max-width: 600px) {
+    #tenor, #bass, #value{
+      background-color: sliver;
     }
-  } */
+    #nav-bar a {
+        float:none;
+        width: 100%;
+      }
+  }
   
