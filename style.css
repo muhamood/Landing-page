@@ -225,11 +225,12 @@ iframe{
     background-color:lightgrey;
   }
   
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 600px) {
     #tenor, #bass, #value{
       background-color: sliver;
     }
     #nav-bar a {
+        float:none;
         width: 100%;
       }
   }
